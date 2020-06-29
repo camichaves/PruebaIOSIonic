@@ -1,0 +1,40 @@
+<app-header titulo="Grid Row"></app-header>
+
+<ion-content fullscreen="true">
+<ion-grid fixed="true">
+  <div class="pins">
+<!--    <ion-card class="pin" style="margin-top: 25px">-->
+<!--      <ion-img src="/assets/El-mejor-chatbot-para-tu-contact-center (2).jpg"></ion-img>-->
+<!--    </ion-card>-->
+<!--    <ion-card class="pin"  >-->
+<!--      <ion-img src="/assets/El-mejor-chatbot-para-tu-contact-center (2).jpg"></ion-img>-->
+<!--    </ion-card>-->
+    <ion-card class="pin" *ngFor="let item of [1,1,1,1,1,1]; let i = index" [ngClass]="{'margenes': i == 3}">
+      <ion-img src="/assets/El-mejor-chatbot-para-tu-contact-center (2).jpg"></ion-img>
+    </ion-card>
+  </div>
+</ion-grid>
+<!--  <ion-grid fixed="true">-->
+<!--&lt;!&ndash;    <ion-row>&ndash;&gt;-->
+<!--&lt;!&ndash;      <ion-col *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1]; let i = index">&ndash;&gt;-->
+<!--&lt;!&ndash;      Hola, item{{i+1}}&ndash;&gt;-->
+<!--&lt;!&ndash;    </ion-col>&ndash;&gt;-->
+<!--&lt;!&ndash;    </ion-row>&ndash;&gt;-->
+
+<!--      <ion-row>-->
+<!--      <ion-col size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12"-->
+<!--              *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1]; let i = index">-->
+<!--        <ion-card>-->
+<!--          <ion-img src="/assets/El-mejor-chatbot-para-tu-contact-center (2).jpg"></ion-img>-->
+<!--          <ion-card-header>-->
+<!--            <ion-card-subtitle> Soy mimibot</ion-card-subtitle>-->
+<!--            <ion-card-title>Hola :)</ion-card-title>-->
+<!--            <ion-fab vertical="bottom" horizontal="end"><ion-fab-button>$</ion-fab-button></ion-fab>-->
+<!--          </ion-card-header>-->
+<!--        </ion-card>-->
+<!--      </ion-col>-->
+<!--    </ion-row>-->
+<!--  </ion-grid>-->
+
+
+</ion-content>

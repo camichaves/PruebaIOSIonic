@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Regresar" defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Avatar</ion-title>
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <img src="../../../assets/El-mejor-chatbot-para-tu-contact-center%20(2).jpg" alt="avatar">
+      </ion-avatar>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!--  <ion-chip>-->
+<!--    <ion-avatar>-->
+<!--      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">-->
+<!--    </ion-avatar>-->
+<!--    <ion-label>Chip Avatar</ion-label>-->
+<!--  </ion-chip>-->
+  <ion-chip color="primary" *ngFor="let i of [1,1,1,1,1,1]">
+    <ion-avatar>
+      <img src="../../../assets/El-mejor-chatbot-para-tu-contact-center%20(2).jpg" alt="avatar">
+    </ion-avatar>
+    <ion-label> Mimi Bot</ion-label>
+  </ion-chip>
+<ion-list>
+  <ion-item *ngFor="let i of [1,1,1,1,1,1,1,1]">
+    <ion-avatar slot="start">
+      <img src="../../../assets/El-mejor-chatbot-para-tu-contact-center%20(2).jpg" alt="avatar">
+    </ion-avatar>
+    <ion-label> Mimi Bot</ion-label>
+  </ion-item>
+</ion-list>
+</ion-content>

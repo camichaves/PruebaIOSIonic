@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Eina";
+  src: url("src/assets/fonts/Eina01-SemiBold.ttf");
+}
+.top-20 {
+  margin-top: 20px;
+}
+
+mark {
+  display: inline-block;
+  line-height: 0;
+  padding-bottom: 0.5em;
+  background-color: #FCC4CE ;
+  // #FCC4CE   #BFE4FF
+}
+
+h1{
+  font-family: "Eina", serif;
+  font-size: 38px;
+  color: #222D3A;
+}
